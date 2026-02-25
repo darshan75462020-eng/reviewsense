@@ -1,0 +1,47 @@
+# ---------------- Python ----------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# ---------------- Virtual Env ----------------
+venv/
+env/
+.venv/
+
+# ---------------- Environment Variables ----------------
+.env
+.env.*
+
+# ---------------- Flask ----------------
+instance/
+*.db
+*.sql
+
+# ---------------- Uploads / User files ----------------
+uploads/
+
+# ---------------- AI / Models ----------------
+local_model/
+*.safetensors
+*.bin
+*.pt
+*.h5
+*.onnx
+
+# ---------------- NLP / Cache ----------------
+nltk_data/
+spacy_models/
+
+# ---------------- OS ----------------
+.DS_Store
+Thumbs.db
+
+# ---------------- IDE ----------------
+.vscode/
+.idea/
+
+# ---------------- Git temp ----------------
+*.bak
+*.swp
