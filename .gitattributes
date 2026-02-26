@@ -1,0 +1,4 @@
+# Ensure proper line endings
+* text=auto
+*.py text eol=lf
+migrations/* text eol=lf
